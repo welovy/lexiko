@@ -22,9 +22,7 @@ input.wordbox {
 	margin-top: 30px;
 	background-color: rgba(0,0,0,0);
 	font-size:36pt;
-	border: 1px solid #223344;
-	border-top-width: 1px;
-	border-left-width: 1px;
+	border: 0px solid #fff;
     width: 640px;
     height: 1.2em;
 	text-align:center;
@@ -32,6 +30,12 @@ input.wordbox {
     border-radius: 0px 4px 4px 0px;
     -moz-border-radius: 0px 4px 4px 0px;
     -webkit-border-radius: 0px 4px 4px 0px;
+	-webkit-transition-property: border, -webkit-box-shadow;
+	-webkit-transition-duration: 1.7s;
+	-webkit-transition-timing-function: eash-in;
+    box-shadow: 0px 0px 5px #ffffff;
+    -moz-box-shadow: 0px 0px 5px #ffffff;
+    -webkit-box-shadow: 0px 0px 5px  #ffffff;
 }
 
 input.wordbox:focus {
@@ -40,6 +44,6 @@ input.wordbox:focus {
 	border-top-width: 0px;
 	border-left-width: 0px;
     box-shadow: 4px 4px 8px #cccccc;
-    -moz-box-shadow: 0px 0px 8px #cccccc;
-    -webkit-box-shadow: 4px 4px 20px  #cccccc;
+    -moz-box-shadow: 0px 0px 8px #ffffff;
+    -webkit-box-shadow: 0px 0px 30px  #ffffff;
 }
