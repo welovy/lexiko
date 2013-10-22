@@ -14,8 +14,7 @@
     Database.prototype.getWord = function(word) {
       console.log(word);
       return this.db.each('select * from word where lemma= "' + word + '"', function(err, row) {
-        console.log(row);
-        return console.log(row.id + ":" + row.info);
+        return console.log(row);
       });
     };
 

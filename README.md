@@ -4,4 +4,4 @@
 ## changelog
   2013/10/22 : first commit
 
-shinpei(c)2013
+welovy(c)2013
